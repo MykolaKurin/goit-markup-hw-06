@@ -829,6 +829,10 @@ img {
   transform: translate(-50%, -50%);
 }
 
+.icon-position {
+  position: relative;
+}
+
 .modal-close-btn {
   position: absolute;
   top: 8px;
@@ -844,12 +848,15 @@ img {
 }
 
 .modal-close-icon {
+  position: absolute;
+  right: 9px;
+  top: 9px;
   width: 11px;
   height: 11px;
 }
 
-.close-btn:hover .close-icon,
-.close-btn:focus .close-icon {
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
   fill: var(--brand-color);
 }
 
