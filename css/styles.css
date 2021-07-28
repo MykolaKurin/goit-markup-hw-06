@@ -829,11 +829,11 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.close-btn {
+.modal-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
-  fill: #000000;
+  fill: var(--black-color);
   width: 30px;
   height: 30px;
   background: transparent;
@@ -843,7 +843,7 @@ img {
   cursor: pointer;
 }
 
-.close-icon {
+.modal-close-icon {
   width: 11px;
   height: 11px;
 }
@@ -902,7 +902,6 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-
   color: var(--grey-color);
   margin-bottom: 10px;
 }
